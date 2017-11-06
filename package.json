@@ -1,6 +1,6 @@
 {
   "name": "aeris-mixins",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Misc mixins for tha Aeris team.",
   "main": "dist/aeris-mixins.js",
   "scripts": {
