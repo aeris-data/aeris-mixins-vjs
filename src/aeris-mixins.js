@@ -1,6 +1,6 @@
 export const VueAerisLanguagePlugin = {
 		install(Vue, options) {
-			
+			Console.log("Installation of VueAerisLanguagePlugin")
 			 Vue.mixin({
 				    mounted: function () {
 				      if ((this.$props) && (this.$props.lang)) {
@@ -26,7 +26,7 @@ export const VueAerisLanguagePlugin = {
 
 export const VueColorPlugin = {
 		install(Vue, options) {
-		   
+			Console.log("Installation of VueColorPlugin")
 		    Vue.prototype.$colorLuminance = function(hex, lum) {
 			  		//from https://www.sitepoint.com/javascript-generate-lighter-darker-color/
 			  		// validate hex string
