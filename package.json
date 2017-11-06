@@ -1,0 +1,44 @@
+{
+  "name": "aeris-mixins",
+  "version": "0.1.0",
+  "description": "Misc mixins for tha Aeris team.",
+  "main": "dist/aeris-mixins.js",
+  "scripts": {
+    "build": "rimraf ./dist && webpack --config ./webpack.config.js"
+  },
+  "author": "Aeris",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "repository": {
+   "type": "git",
+    "url": "git+https://github.com/aeris-data/aeris-mixins-vjs"
+   },
+  "devDependencies": {
+   "babel-core": "6.26.0",
+    "babel-loader": "6.4.1",
+    "babel-preset-env": "1.6.1",
+    "clean-webpack-plugin": "0.1.17",
+    "cross-env": "3.2.4",
+    "css-loader": "0.25.0",
+    "exports-loader": "0.6.4",
+    "file-loader": "0.9.0",
+    "style-loader": "0.18.2",
+    "vue-loader": "12.2.2",
+    "vue-template-compiler": "2.5.3",
+    "webpack": "2.7.0",
+    "webpack-dev-server": "2.9.4",
+    "vue": "2.5.3",
+    "vue-custom-element": "1.2.1",
+    "vue-i18n": "7.0.5",
+    "vue-resource": "1.3.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0",
+    "babel-runtime": "^6.9.2",
+    "rimraf": "^2.6.1",
+    "vue-html-loader": "^1.2.3",
+    "vue-style-loader": "^2.0.3",
+    "webpack-merge": "^4.1.0"
+  }
+}
