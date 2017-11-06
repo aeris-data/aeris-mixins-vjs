@@ -49,4 +49,4 @@ export const VueColorPlugin = {
 		  }
 };
 
-export default VueAerisLanguagePlugin;
+export default VueColorPlugin;
