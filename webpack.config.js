@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-  entry: path.resolve(__dirname + '/src/vue-aeris-language.js'),
+  entry: path.resolve(__dirname + '/src/aeris-mixins.js'),
   output: {
     path: path.resolve(__dirname + '/dist/'),
     filename: 'aeris-mixins.js',
